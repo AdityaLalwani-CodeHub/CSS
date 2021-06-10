@@ -1,0 +1,22 @@
+/* rem - Relative to root
+1 rem - 16px default browser style
+1 rem - base
+*/
+
+/* Can make html root */
+/* html {
+	font-size: 20px;
+} */
+
+div {
+	font-size: 40px;
+}
+
+/* using rem */
+.relative {
+	font-size: 1.5rem;
+}
+
+.absolute {
+	font-size: 32px;
+}
