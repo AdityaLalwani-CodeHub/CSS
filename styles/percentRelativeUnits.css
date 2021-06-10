@@ -1,0 +1,22 @@
+/* Percent Values - RELATIVE */
+
+/* Absolute - PIXELS , irrespective of environment */
+h1 {
+	font-size: 60px;
+	width: 200px;
+	height: 300px;
+	background: blue;
+}
+
+/* Relative -> percentage */
+.outer {
+	width: 500px;
+	height: 400px;
+	background: crimson;
+}
+
+.inner {
+	width: 50%;
+	height: 40%;
+	background: cyan;
+}
