@@ -1,0 +1,24 @@
+/* Default display property
+Block - Always starts a new line and takes full width
+Inline - Does not start and only take up as much as the content space
+
+Horizontal centering
+*/
+
+body {
+	text-align: center;
+}
+
+.block {
+	background: blue;
+	color: white;
+	/* display: inline; */
+	width: 150px;
+	margin: 20px auto; /*auto => centralize*/
+}
+
+.inline {
+	background: tomato;
+	color: white;
+	/* display: block; */
+}
