@@ -1,0 +1,21 @@
+/* 
+em - RELATIVE depends on parent
+1 em - 16px default browser style
+1 em - base value
+2 em - 2*16 = 32px 
+*/
+
+div {
+	font-size: 10px;
+}
+
+.relative {
+	/* when div present, base => 1em = 10px, 2em = 20px */
+
+	font-size: 2em;
+}
+
+.absolute {
+	/* equal to 2em when div not present as body/browser is the parent */
+	font-size: 32px;
+}
