@@ -1,0 +1,10 @@
+/* CLASS SELECTOR */
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+	background: gray;
+}
