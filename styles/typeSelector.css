@@ -1,0 +1,19 @@
+/* ELEMENT SELECTORS */
+body {
+	color: red;
+}
+
+h1,
+h2 {
+	color: blue;
+}
+
+/* h1 {
+	color: crimson;
+}
+h2 {
+	color: cyan;
+}
+p {
+	color: gray;
+} */
