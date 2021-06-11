@@ -1,0 +1,53 @@
+/* BACKGROUND IMAGES */
+/* Last rule order */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	height: 200px;
+	color: blue;
+}
+
+div {
+	height: 300px;
+	color: crimson;
+	height: 400px; /* Last - Selected */
+	min-height: 100vh;
+	font-size: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.big-img {
+	background: url("./../big.jpeg");
+	background-repeat: round;
+	background-size: cover;
+	background-position: 0% 0%;
+	background-attachment: fixed; /*Image remains fixed*/
+}
+
+.small-img {
+	background: url("./../small.jpeg");
+	background-repeat: repeat; /*default*/
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: space;
+	background-repeat: no-repeat;
+	background-repeat: round;
+}
+
+.folder-img {
+	background: url("./../images/folder-img.jpeg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: bottom;
+	background-position: right;
+	background-position: left;
+	background-position: center;
+}
