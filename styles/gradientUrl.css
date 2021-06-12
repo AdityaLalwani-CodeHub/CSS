@@ -28,3 +28,27 @@ div {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url("./../big.jpeg") center/cover no-repeat fixed;
 }
+
+.colorzilla {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f41811+0,2989d8+50,7db9e8+100 */
+	background: #f41811; /* Old browsers */
+	background: -moz-linear-gradient(
+		top,
+		#f41811 0%,
+		#2989d8 50%,
+		#7db9e8 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top,
+		#f41811 0%,
+		#2989d8 50%,
+		#7db9e8 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		#f41811 0%,
+		#2989d8 50%,
+		#7db9e8 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f41811', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
