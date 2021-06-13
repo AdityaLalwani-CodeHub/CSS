@@ -1,0 +1,49 @@
+/* Alignment - float and clear with google font*/
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+	width: 900px;
+	border: 3px solid purple;
+	background-color: rgb(172, 248, 248);
+	margin: 33px auto;
+}
+
+.item {
+	border: 3px solid grey;
+	margin: 12px 3px;
+	padding: 12px 3px;
+	background-color: rgb(253, 190, 203);
+}
+
+#fruit {
+	float: left;
+	width: 45%;
+}
+
+#computer {
+	float: right;
+	width: 45%;
+}
+
+#stationary {
+	clear: both;
+	width: 100%;
+}
+
+p,
+h3 {
+	text-align: justify;
+}
+
+h1 {
+	margin: 23px auto;
+	width: 455px;
+}
