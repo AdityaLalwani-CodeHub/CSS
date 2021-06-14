@@ -1,0 +1,21 @@
+/* Descandant and Child Selectors */
+
+/* All descandants(Specific) - Selected */
+.header h1 {
+	color: purple;
+}
+
+/* Just Child(Specific) - Selected */
+.header > h1 {
+	color: crimson;
+}
+
+/* All descandants(General) - Not Selected */
+div h1 {
+	color: green;
+}
+
+/* Just Child(General) - Not Selected */
+div > h1 {
+	color: gray;
+}
