@@ -14,22 +14,22 @@
 	flex-direction: column-reverse;*/
 
 	/* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
-	flex-wrap: wrap-reverse;
+	/* flex-wrap: wrap-reverse; */
 
 	/* This is a shorthand for flex-direction: and flex-wrap: ;; */
-	flex-flow: row-reverse wrap;
+	/* flex-flow: row-reverse wrap; */
 
 	/* justify-content will justify the content in horizontal direction */
-	/* justify-content: center; */
-	/* justify-content: space-between; */
-	/* justify-content: space-evenly; */
-	/* justify-content: space-around; */
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: space-evenly;
+	justify-content: space-around;
 
-	/* justify-content will justify the content in vertical direction */
-	/* align-items: center; */
-	/* align-items: flex-end; */
-	/* align-items: flex-start; */
-	/* align-items: stretch; */
+	/* align-items will justify the content in vertical direction */
+	align-items: center;
+	align-items: flex-end;
+	align-items: flex-start;
+	align-items: stretch;
 }
 .item {
 	width: 200px;
