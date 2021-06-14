@@ -9,15 +9,15 @@
 	/* Flex properties for a flex container */
 
 	/* flex-direction: row; (Default value of flex-direction is row) */
-	flex-direction: column;
+	/*flex-direction: column;
 	flex-direction: row-reverse;
-	flex-direction: column-reverse;
+	flex-direction: column-reverse;*/
 
 	/* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
-	/* flex-wrap: wrap-reverse; */
+	flex-wrap: wrap-reverse;
 
 	/* This is a shorthand for flex-direction: and flex-wrap: ;; */
-	/* flex-flow: row-reverse wrap; */
+	flex-flow: row-reverse wrap;
 
 	/* justify-content will justify the content in horizontal direction */
 	/* justify-content: center; */
